@@ -4,13 +4,12 @@ import br.sesi.bank.bank_java_jdbc.domain.cliente.DadosCadastroCliente;
 
 public class DadosAberturaConta {
     public Integer numero;
-    public DadosCadastroCliente dadoscliente;
+    public DadosCadastroCliente dadosCliente;
 
     public DadosAberturaConta(Integer numero, DadosCadastroCliente dadosCliente) {
         this.numero = numero;
-        this.dadoscliente= dadosCliente;
+        this.dadosCliente = dadosCliente;
     }
 }
-
 
 
