@@ -8,24 +8,29 @@ public class Cliente {
     }
 
     public String getNome(){
+
         return nome;
     }
 
     public String getCpf(){
+
         return cpf;
     }
 
     public String getEmail(){
+
         return email;
     }
 
     @Override
     public boolean equals(Object obj) {
+
         return super.equals(obj);
     }
 
     @Override
     public int hashCode() {
+
         return super.hashCode();
     }
 }
