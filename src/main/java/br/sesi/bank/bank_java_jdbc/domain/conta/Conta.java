@@ -9,9 +9,8 @@ public class Conta {
     Integer numero;
     BigDecimal valor;
     Cliente titular;
-    BigDecimal zero;
 
-    Conta(Integer numero, BigDecimal valor, Cliente titular) {
+    public Conta(Integer numero, BigDecimal valor, Cliente titular) {
         this.numero = numero;
         this.valor = valor;
         this.titular = titular;
