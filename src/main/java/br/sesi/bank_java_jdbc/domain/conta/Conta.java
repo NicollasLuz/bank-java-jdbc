@@ -1,6 +1,6 @@
-package br.sesi.bank.bank_java_jdbc.domain.conta;
+package br.sesi.bank_java_jdbc.domain.conta;
 
-import br.sesi.bank.bank_java_jdbc.domain.cliente.Cliente;
+import br.sesi.bank_java_jdbc.domain.cliente.Cliente;
 
 import java.math.BigDecimal;
 import java.util.Objects;

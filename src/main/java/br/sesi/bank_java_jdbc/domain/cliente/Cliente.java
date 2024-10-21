@@ -1,4 +1,4 @@
-package br.sesi.bank.bank_java_jdbc.domain.cliente;
+package br.sesi.bank_java_jdbc.domain.cliente;
 
 public class Cliente {
     String nome, email, cpf;

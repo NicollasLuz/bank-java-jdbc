@@ -1,9 +1,9 @@
-package br.sesi.bank.bank_java_jdbc.service;
+package br.sesi.bank_java_jdbc.service;
 
-import br.sesi.bank.bank_java_jdbc.domain.cliente.Cliente;
-import br.sesi.bank.bank_java_jdbc.domain.conta.Conta;
-import br.sesi.bank.bank_java_jdbc.domain.conta.DadosAberturaConta;
-import br.sesi.bank.bank_java_jdbc.exceptions.RegraDeNegocioException;
+import br.sesi.bank_java_jdbc.domain.cliente.Cliente;
+import br.sesi.bank_java_jdbc.domain.conta.Conta;
+import br.sesi.bank_java_jdbc.domain.conta.DadosAberturaConta;
+import br.sesi.bank_java_jdbc.exceptions.RegraDeNegocioException;
 
 import java.math.BigDecimal;
 import java.util.HashSet;

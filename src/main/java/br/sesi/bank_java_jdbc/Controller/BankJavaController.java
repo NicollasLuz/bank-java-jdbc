@@ -1,9 +1,9 @@
-package br.sesi.bank.bank_java_jdbc.controller;
+package br.sesi.bank_java_jdbc.Controller;
 
-import br.sesi.bank.bank_java_jdbc.domain.cliente.DadosCadastroCliente;
-import br.sesi.bank.bank_java_jdbc.domain.conta.DadosAberturaConta;
-import br.sesi.bank.bank_java_jdbc.exceptions.RegraDeNegocioException;
-import br.sesi.bank.bank_java_jdbc.service.ContaService;
+import br.sesi.bank_java_jdbc.domain.cliente.DadosCadastroCliente;
+import br.sesi.bank_java_jdbc.domain.conta.DadosAberturaConta;
+import br.sesi.bank_java_jdbc.exceptions.RegraDeNegocioException;
+import br.sesi.bank_java_jdbc.service.ContaService;
 
 import java.sql.SQLException;
 import java.util.Scanner;
