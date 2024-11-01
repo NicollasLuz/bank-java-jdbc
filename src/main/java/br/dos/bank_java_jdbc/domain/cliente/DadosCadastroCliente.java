@@ -1,7 +1,11 @@
-package br.sesi.bank_java_jdbc.domain.cliente;
+package br.dos.bank_java_jdbc.domain.cliente;
+
+import java.time.LocalDate;
 
 public class DadosCadastroCliente {
-    String nome, cpf, email;
+    String nome;
+    String cpf;
+    String email;
 
     public DadosCadastroCliente(String nome, String cpf, String email) {
         this.nome = nome;
@@ -9,4 +13,3 @@ public class DadosCadastroCliente {
         this.email = email;
     }
 }
-

@@ -1,7 +1,9 @@
-package br.sesi.bank_java_jdbc.domain.conta;
+package br.dos.bank_java_jdbc.domain.conta;
 
 import java.sql.Connection;
+
 public class ContaDAO {
+
     private Connection conn;
 
     ContaDAO(Connection connection) {
