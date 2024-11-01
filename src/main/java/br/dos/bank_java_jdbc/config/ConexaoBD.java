@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConexaoBD {
     public static void main(String[] args) {
         try{
-            Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/bank-sesi?user=postgres&password=root");
+            Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres?user=postgres&password=root");
 
             System.out.println("Consegui conectar");
         }catch (SQLException e){
