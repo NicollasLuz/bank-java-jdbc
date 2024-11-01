@@ -33,6 +33,8 @@ public class ContaDAO {
             preparedStatement.setString(4, dadosDaConta.dadosCliente.cpf);
             preparedStatement.setString(5, dadosDaConta.dadosCliente.email);
             preparedStatement.execute();
+            preparedStatement.close();
+            conn.close();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
@@ -50,12 +52,14 @@ public class ContaDAO {
                 String nome = resultSet.getString(3);
                 String cpf = resultSet.getString(4);
                 String email = resultSet.getString(5);
+                Boolean ativo = resultSet.getBoolean(6);
                 Cliente cliente = new Cliente(new DadosCadastroCliente(nome, cpf, email));
-                Conta conta = new Conta(numero, saldo, cliente, true);
+                Conta conta = new Conta(numero, saldo, cliente, ativo);
                 contas.add(conta);
             }
             resultSet.close();
             ps.close();
+            conn.close();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
