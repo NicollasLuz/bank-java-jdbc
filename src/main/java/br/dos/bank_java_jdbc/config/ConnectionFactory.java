@@ -1,4 +1,4 @@
-package br.sesi.bank_java_jdbc.config;
+package br.dos.bank_java_jdbc.config;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
@@ -21,6 +21,7 @@ public class ConnectionFactory {
         config.setUsername("root");
         config.setPassword("root");
         config.setMaximumPoolSize(10);
+
         return new HikariDataSource(config);
     }
 }
